@@ -1,0 +1,62 @@
+body{
+    background: url("hw4.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+
+.col{
+	display: inline-block;
+    width: 250px;
+    height: 400px;
+    background: #fff;
+    margin: 90px 5px;
+}
+
+.topbox{
+	background: rgba(8, 74, 163, 0.94);
+    height: 200px;
+    width: 100%;
+    color: #fff;
+    font-family: sans-serif; 
+}
+.topbox>.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.topbox>.price{
+    text-align: center;
+}
+.topbox>.price *{
+    display: inline-block; 
+    
+}
+.number{
+    font-size: 3em;
+    
+}
+.btn{
+    border: 2px solid #fff;
+    width: 150px;
+    margin: 3px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 6px 0px;
+    margin-top: 10px;
+}
+.content{
+	margin-top: 30pt;
+	margin-left: 30pt;
+	margin-right: 30pt;
+	margin-bottom: 30pt;
+}
+
+i{
+    color: #666;
+	float: left;
+}
+
+
+
+
